@@ -7,7 +7,7 @@ DOGO (double mobile goal) is a mobile goal focused robot that can place goals on
 - `L2` Tilter Toggle.  When held, the tilter comes all the way down
 - `R1` Lift Up Ladder
 - `R2` Lift Down Ladder
-- Tank Drive
+- Tank Drive (by default)
 
 ## Useful File Descriptions:
  - `src/auton.cpp`: Autonomous routines (Solo AWP).
