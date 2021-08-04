@@ -24,8 +24,11 @@ This code uses EZ-Template, a simple PROS template that handles drive base funct
 Reveal  
 VEX Forum  
 
+Basic Code  
+[DOGO VEXcode](https://github.com/Unionjackjz1/HW-DOGO-VEXCODE/)    
+[AMOGO VEXcode](https://github.com/Unionjackjz1/HW-AMOGO-VEXCODE/)  
+
+Advanced Code  
 [DOGO PROS](https://github.com/Unionjackjz1/HW-DOGO-PROS/)  
 [AMOGO PROS](https://github.com/Unionjackjz1/HW-AMOGO-PROS/) 
 
-[DOGO VEXcode](https://github.com/Unionjackjz1/HW-DOGO-VEXCODE/)    
-[AMOGO VEXcode](https://github.com/Unionjackjz1/HW-AMOGO-VEXCODE/)  
