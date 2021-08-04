@@ -1,4 +1,4 @@
-# Harvard-Westlake's DOGO - PROS Version
+# Harvard-Westlake's DOGO - PROS
   
 DOGO (double mobile goal) is a mobile goal focused robot that can place goals on platforms without climbing, steal goals from opponent platforms and robots, and steal opponents alliance goals. 
 
