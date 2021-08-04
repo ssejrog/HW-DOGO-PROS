@@ -14,7 +14,7 @@ DOGO (double mobile goal) is a mobile goal focused robot that can place goals on
  - `src/lift.cpp`: Lift functions for opcontrol, with a position ladder.
  - `src/main.cpp`: Main file with on screen autonomous selection.
  - `src/mogo.cpp`: Mogo functions for opcontrol and autonomous.
- - `src/tilter.cpp`: Mogo functions for opcontrol and autonomous.
+ - `src/tilter.cpp`: Tilter functions for opcontrol and autonomous.
 
 ## EZ-Template
 This code uses EZ-Template, a simple PROS template that handles drive base functions for VEX robots. [That can be found here](https://github.com/Unionjackjz1/EZ-Template).
