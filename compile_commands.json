@@ -52,7 +52,7 @@
             "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
             "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
             "-iquote./include",
-            "-iquote./include/./",
+            "-iquote./include/EZ-Template/",
             "-mcpu=cortex-a9",
             "-mfpu=neon-fp16",
             "-mfloat-abi=softfp",
@@ -67,48 +67,11 @@
             "-funwind-tables",
             "--std=gnu++17",
             "-o",
-            "bin/mogo.cpp.o",
-            "src\\mogo.cpp"
+            "bin/EZ-Template/joystick_control.cpp.o",
+            "src\\EZ-Template\\joystick_control.cpp"
         ],
         "directory": "C:\\Users\\union\\Documents\\HW Camp\\HW-DOGO-PROS",
-        "file": "src\\mogo.cpp"
-    },
-    {
-        "arguments": [
-            "clang++",
-            "-c",
-            "-target",
-            "armv7ar-none-none-eabi",
-            "-fno-ms-extensions",
-            "-fno-ms-compatibility",
-            "-fno-delayed-template-parsing",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi/thumb/v7-a+simd/softfp",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
-            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
-            "-iquote./include",
-            "-iquote./include/./",
-            "-mcpu=cortex-a9",
-            "-mfpu=neon-fp16",
-            "-mfloat-abi=softfp",
-            "-Os",
-            "-g",
-            "-D_POSIX_THREADS",
-            "-D_UNIX98_THREAD_MUTEX_ATTRIBUTES",
-            "-Wno-psabi",
-            "-ffunction-sections",
-            "-fdata-sections",
-            "-fdiagnostics-color",
-            "-funwind-tables",
-            "--std=gnu++17",
-            "-o",
-            "bin/lift.cpp.o",
-            "src\\lift.cpp"
-        ],
-        "directory": "C:\\Users\\union\\Documents\\HW Camp\\HW-DOGO-PROS",
-        "file": "src\\lift.cpp"
+        "file": "src\\EZ-Template\\joystick_control.cpp"
     },
     {
         "arguments": [
@@ -141,11 +104,11 @@
             "-funwind-tables",
             "--std=gnu++17",
             "-o",
-            "bin/EZ-Template/joystick_control.cpp.o",
-            "src\\EZ-Template\\joystick_control.cpp"
+            "bin/EZ-Template/auton_drive_functions.cpp.o",
+            "src\\EZ-Template\\auton_drive_functions.cpp"
         ],
         "directory": "C:\\Users\\union\\Documents\\HW Camp\\HW-DOGO-PROS",
-        "file": "src\\EZ-Template\\joystick_control.cpp"
+        "file": "src\\EZ-Template\\auton_drive_functions.cpp"
     },
     {
         "arguments": [
@@ -237,7 +200,7 @@
             "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
             "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
             "-iquote./include",
-            "-iquote./include/EZ-Template/",
+            "-iquote./include/./",
             "-mcpu=cortex-a9",
             "-mfpu=neon-fp16",
             "-mfloat-abi=softfp",
@@ -252,11 +215,48 @@
             "-funwind-tables",
             "--std=gnu++17",
             "-o",
-            "bin/EZ-Template/auton_drive_functions.cpp.o",
-            "src\\EZ-Template\\auton_drive_functions.cpp"
+            "bin/tilter.cpp.o",
+            "src\\tilter.cpp"
         ],
         "directory": "C:\\Users\\union\\Documents\\HW Camp\\HW-DOGO-PROS",
-        "file": "src\\EZ-Template\\auton_drive_functions.cpp"
+        "file": "src\\tilter.cpp"
+    },
+    {
+        "arguments": [
+            "clang++",
+            "-c",
+            "-target",
+            "armv7ar-none-none-eabi",
+            "-fno-ms-extensions",
+            "-fno-ms-compatibility",
+            "-fno-delayed-template-parsing",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/arm-none-eabi/thumb/v7-a+simd/softfp",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include/c++/10.2.1/backward",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/include-fixed",
+            "-isystemc:\\program files\\pros\\toolchain\\usr\\bin\\../lib/gcc/arm-none-eabi/10.2.1/../../../../arm-none-eabi/include",
+            "-iquote./include",
+            "-iquote./include/./",
+            "-mcpu=cortex-a9",
+            "-mfpu=neon-fp16",
+            "-mfloat-abi=softfp",
+            "-Os",
+            "-g",
+            "-D_POSIX_THREADS",
+            "-D_UNIX98_THREAD_MUTEX_ATTRIBUTES",
+            "-Wno-psabi",
+            "-ffunction-sections",
+            "-fdata-sections",
+            "-fdiagnostics-color",
+            "-funwind-tables",
+            "--std=gnu++17",
+            "-o",
+            "bin/lift.cpp.o",
+            "src\\lift.cpp"
+        ],
+        "directory": "C:\\Users\\union\\Documents\\HW Camp\\HW-DOGO-PROS",
+        "file": "src\\lift.cpp"
     },
     {
         "arguments": [
@@ -326,10 +326,10 @@
             "-funwind-tables",
             "--std=gnu++17",
             "-o",
-            "bin/tilter.cpp.o",
-            "src\\tilter.cpp"
+            "bin/mogo.cpp.o",
+            "src\\mogo.cpp"
         ],
         "directory": "C:\\Users\\union\\Documents\\HW Camp\\HW-DOGO-PROS",
-        "file": "src\\tilter.cpp"
+        "file": "src\\mogo.cpp"
     }
 ]
