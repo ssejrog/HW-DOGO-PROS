@@ -13,7 +13,7 @@ DOGO (double mobile goal) is a mobile goal focused robot that can place goals on
 - Tank Drive (by default)
 
 ## Useful File Descriptions
- - `src/auton.cpp`: Autonomous routines (Solo AWP).
+ - `src/auton.cpp`: [Autonomous routines (Solo AWP)](https://youtu.be/wpvR_m3cUFk).
  - `src/lift.cpp`: Lift functions for opcontrol, with a position ladder.
  - `src/main.cpp`: Main file with on screen autonomous selection.
  - `src/mogo.cpp`: Mogo functions for opcontrol and autonomous.
