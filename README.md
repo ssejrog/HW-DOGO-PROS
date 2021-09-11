@@ -1,6 +1,6 @@
 # Harvard-Westlake's DOGO - PROS
   
-This was made on VEXos 1.0.13
+This was made on VEXos 1.0.13, PROS Kernel 3.5.0
 ---
 DOGO (double mobile goal) is a mobile goal focused robot that can place goals on platforms without climbing, steal goals from opponent platforms and robots, hold two mobile goals at once, and steal opponents alliance goals. 
 ![](DOGO-Render.png)   
@@ -21,6 +21,14 @@ DOGO (double mobile goal) is a mobile goal focused robot that can place goals on
 
 ## EZ-Template
 This code uses EZ-Template, a simple PROS template that handles drive base functions for VEX robots. [That can be found here](https://github.com/Unionjackjz1/EZ-Template).
+
+### Warning
+
+EZ-Template uses a unique PROS kernel that makes the emulated LCD pink instead of green.  Using this with hot/cold linking enabled (it is by default) could possible delete other PROS projects in other slots on your brain. 
+
+To disable hot/cold linking, open your `Makefile` and change `USE_PACKAGE:=1` to `USE_PACKAGE:=0`.  Doing this will make wireless downloading slower. 
+
+[Read more about hot/cold linking on the PROS docs](https://pros.cs.purdue.edu/v5/tutorials/topical/wireless-upload.html). 
 
 ## External Links
 
